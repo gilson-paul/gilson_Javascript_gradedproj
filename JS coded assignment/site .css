@@ -1,0 +1,87 @@
+body {
+  padding: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+button {
+  margin-top: 20px;
+  height: 40px;
+  font-weight: bold;
+  padding: 0 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-left: 10px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+  transform: scale(1.01);
+}
+
+button:active {
+  box-shadow: none;
+}
+
+h1 {
+  color: rgb(117, 147, 231);
+}
+
+input {
+  border-color: transparent;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.todoInput {
+  width: 80%;
+}
+
+.todoInputEdit {
+  width: 61%;
+}
+
+.container {
+  padding: 3% 5% 5% 5%;
+  margin: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1.5px 5px 0 rgba(0, 0, 0, 0.19);
+  height: fit-content;
+  border-radius: 4px;
+  width: 500px;
+}
+
+.todoLabel {
+  display: inline-block;
+  height: 35px;
+  width: 62%;
+  overflow-wrap: break-word;
+  padding: 10px;
+}
+
+.list-unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.addButton {
+  background: rgb(58, 80, 139);
+}
+
+.deleteButton {
+  background: #e63b31;
+}
+
+.editButton {
+  background: #137ea7;
+}
+
+.cancelButton {
+  background: #1ea6db;
+}
+
+.saveButton {
+  background: #24a428;
+}
